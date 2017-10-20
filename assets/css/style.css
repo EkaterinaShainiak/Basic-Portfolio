@@ -25,11 +25,23 @@ body{
 
 #article {
     width: 650px;
+    display: inline-block;
 }   
 .aside {
     width: 270px;
     float: right;
 }
-.content {
-    display: inline-block;
+/* .content {
+    display: inline-block; */
 }
+
+p {
+    padding: 70p;
+    margin: 10px;
+}
+#me {
+    float: left;
+    margin-right: 10px;
+}
+
+@media and screen(max-)
